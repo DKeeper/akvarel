@@ -20,6 +20,7 @@ use yii\helpers\Html;
             <div class="panel-body">
                 <?php $form = ActiveForm::begin(['id' => 'user-form']); ?>
                 <?= $form->field($model,'username') ?>
+                <?= $form->field($model,'age') ?>
                 <div class="form-group">
                     <?= Html::submitButton('Сохранить', ['class' => 'btn btn-primary']) ?>
                 </div>
