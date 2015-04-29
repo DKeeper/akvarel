@@ -35,9 +35,9 @@ $config = [
             'useFileTransport' => false,
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => 'smtp.gmail.com',
-                'username' => 'dkapenkin@gmail.com',
-                'password' => 'lJZ##su.Im',
+                'host' => 'outgoing server',
+                'username' => 'outgoing email',
+                'password' => 'your password',
                 'port' => '587',
                 'encryption' => 'tls',
             ],
