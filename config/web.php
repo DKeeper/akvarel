@@ -33,14 +33,14 @@ $config = [
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
             'useFileTransport' => false,
-            'transport' => [
+            /*'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => 'outgoing server',
-                'username' => 'outgoing email',
-                'password' => 'your password',
+                'host' => '82.146.52.128',
+                'username' => 'noreply',
+                'password' => '4D5a8L2g',
                 'port' => '587',
                 'encryption' => 'tls',
-            ],
+            ],*/
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
