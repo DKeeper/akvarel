@@ -12,6 +12,9 @@ return [
     'controllerNamespace' => 'app\commands',
     'modules' => [
         'gii' => 'yii\gii\Module',
+        'user-management' => [
+            'class' => 'webvimark\modules\UserManagement\UserManagementModule',
+        ],
     ],
     'components' => [
         'cache' => [
@@ -21,7 +24,8 @@ return [
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
-                    'levels' => ['error', 'warning'],
+                    'logFile' => '@runtime/logs/console.log',
+                    'levels' => ['error', 'warning', 'trace'],
                 ],
             ],
         ],
